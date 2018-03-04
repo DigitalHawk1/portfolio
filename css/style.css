@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 16px; }
+
+html, body {
+  height: 100%;
+  min-height: 100%; }
+
+body {
+  position: relative;
+  text-align: center; }
+
+#site {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column; }
+
+.site-content {
+  flex: 1; }
+
+h1 {
+  display: inline-block; }
+
+h2 {
+  display: inline-block; }
+
+h3 {
+  display: inline-block; }
+
+h4 {
+  display: inline-block; }
+
+h5 {
+  display: inline-block; }
+
+h6 {
+  display: inline-block; }
+
+* {
+  color: #b7b7b7;
+  font-weight: 400;
+  font-size: 16px; }
+
+a {
+  text-decoration: none;
+  font-family: 'Slabo 27px', serif; }
+
+li {
+  list-style-type: none; }
+
+h1, h2, h3, h4, h5, h6, p, q {
+  font-family: 'Anonymous Pro', monospace; }
+
+body {
+  background: #0e1111;
+  color: #b7b7b7;
+  position: relative; }
+
+header {
+  position: fixed;
+  background: #0e1111;
+  width: 100%;
+  -webkit-box-shadow: inset 0 -10px 25px -5px rgba(183, 183, 183, 0.31);
+  -moz-box-shadow: inset 0 -10px 25px -5px rgba(183, 183, 183, 0.31);
+  box-shadow: inset 0 -10px 25px -5px rgba(183, 183, 183, 0.31);
+  z-index: 1000000; }
+  header .header-flex-container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    padding-left: 5%;
+    width: 95%; }
+  header .logo-and-text-wrapper {
+    width: 240px; }
+    header .logo-and-text-wrapper .logo-text-wrapper {
+      position: absolute;
+      top: 50%;
+      left: 130px;
+      transform: translate(0%, -50%); }
+      header .logo-and-text-wrapper .logo-text-wrapper h1 {
+        font-size: 24px; }
+    header .logo-and-text-wrapper #brand-logo-link {
+      font-size: 0; }
+      header .logo-and-text-wrapper #brand-logo-link #brand-logo {
+        width: 60px;
+        height: 60px;
+        float: left; }
+        header .logo-and-text-wrapper #brand-logo-link #brand-logo::after {
+          content: "";
+          clear: both;
+          display: block; }
+  header .main-nav-item {
+    margin: 0 5px;
+    padding: 10px; }
+
+#hero {
+  background: #2d2d2d;
+  position: relative;
+  width: 100%;
+  height: 700px; }
+  #hero .quote {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px; }
+    #hero .quote q {
+      font-size: 48px; }
+    #hero .quote p {
+      font-size: 24px; }
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block; }
+
+/*# sourceMappingURL=style.css.map */
