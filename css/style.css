@@ -109,6 +109,27 @@ footer {
   -webkit-box-shadow: inset 0 10px 25px 5px rgba(45, 45, 45, 0.31);
   -moz-box-shadow: inset 0 10px 25px 5px rgba(45, 45, 45, 0.31);
   box-shadow: inset 0 10px 25px 5px rgba(45, 45, 45, 0.31); }
+  footer #footer-social-nav {
+    margin-bottom: 20px; }
+
+#footer-social-nav .social-nav-link {
+  padding: 5px;
+  margin: 5px; }
+
+.fa-facebook-square {
+  transition: all .3s; }
+  .fa-facebook-square:hover {
+    color: #4267b2; }
+
+.fa-linkedin {
+  transition: all .3s; }
+  .fa-linkedin:hover {
+    color: #0077b5; }
+
+.fa-github-square {
+  transition: all .3s; }
+  .fa-github-square:hover {
+    color: #fff; }
 
 #hero {
   background: #2d2d2d;
@@ -174,6 +195,46 @@ footer {
 
 .i-can-do-wrapper {
   margin: 0; }
+
+.form-container {
+  width: 550px;
+  margin: 0 auto; }
+  .form-container span {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 20px; }
+  .form-container button {
+    width: 260px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    transition: all .3s; }
+    .form-container button:hover {
+      background: #9d6d4e;
+      color: #b7b7b7; }
+
+.form-input {
+  width: 260px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  padding: 2px 5px;
+  color: black; }
+
+textarea {
+  width: 550px;
+  height: 165px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  margin-bottom: 20px;
+  padding: 5px;
+  color: black; }
 
 .clearfix::after {
   content: "";

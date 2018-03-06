@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro:400,400i,700,700i|Slabo+27px&amp;subset=latin-ext"
           rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 </head>
@@ -107,14 +108,14 @@
         <div class="container">
             <h2>Parašykite man</h2>
 
-            <div class="flexbox-container">
+            <div class="form-container">
                 <form action="">
                     <span>
-                        <input type="text" name="name" placeholder="Jūsų vardas" required>
-                        <input type="email" name="email" placeholder="El. paštas" required>
+                        <input class="form-input" type="text" name="name" placeholder="Jūsų vardas" required>
+                        <input class="form-input" type="email" name="email" placeholder="El. paštas" required>
                     </span>
                     <textarea name="message" id="" cols="30" rows="10" placeholder="Jūsų žinutė" required></textarea>
-                    <button>Siūsti</button>
+                    <button>Siųsti</button>
                 </form>
             </div>
         </div>
@@ -122,10 +123,20 @@
 
 </div>
 <footer>
-    ddssfdsfdsfsdfsdk Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi ducimus facere, officiis quis rem
-    sunt suscipit. Asperiores aut dolore eligendi, et eveniet illo inventore ipsum maxime non perspiciatis placeat,
-    provident?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, assumenda cum cumque, debitis dolorem
-    eum exercitationem fuga illo in laudantium nobis quam quibusdam, quis rem reprehenderit sit ut veniam voluptatibus.
+    <div class="container">
+        <nav id="footer-social-nav">
+            <a href="https://www.facebook.com/antanas.stanys.9" class="social-nav-link">
+                <span class="fab-wrapper"><i class="fab fa-facebook-square"></i></span>
+            </a>
+            <a href="https://www.linkedin.com/in/antanas-stanys-812050155/" class="social-nav-link">
+                <span class="fab-wrapper"><i class="fab fa-linkedin"></i></span>
+            </a>
+            <a href="https://github.com/DigitalHawk1/" class="social-nav-link">
+                <span class="fab-wrapper"><i class="fab fa-github-square"></i></span>
+            </a>
+        </nav>
+        <p>Mano rankų darbas © 2018 - Klaipėda</p>
+    </div>
 </footer>
 </body>
 </html>
