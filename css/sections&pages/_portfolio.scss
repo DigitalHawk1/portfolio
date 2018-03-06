@@ -1,0 +1,25 @@
+#portfolio {
+  min-height: 700px;
+  padding-top: 65px;
+  h2 {
+    font-size: 36px;
+    display: block;
+    margin-bottom: 100px;
+  }
+  #small-blog-picture {
+    width: 255px;
+    height: 140px;
+    margin-bottom: 100px;
+  }
+  .tbc {
+    width: 500px;
+    margin: 20px auto;
+  }
+}
+
+#forum-link {
+  transition: all .3s;
+  &:hover {
+    color: #9d6d4e;
+  }
+}

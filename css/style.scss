@@ -1,8 +1,4 @@
-@import 'generic';
-@import 'settings';
-@import 'elements';
-@import 'objects';
-@import 'other';
-@import 'header';
-@import 'hero-section';
-@import 'utilities';
+@import 'base/module';
+@import 'layout/module';
+@import 'sections&pages/module';
+@import 'helpers/utilities';
