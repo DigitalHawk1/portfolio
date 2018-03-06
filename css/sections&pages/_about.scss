@@ -1,0 +1,38 @@
+#about {
+  background: #2d2d2d;
+  #about-me {
+    margin-bottom: 50px;
+  }
+  #abilities {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  b {
+    font-size: 20px;
+  }
+  #sass {
+    height: 30px;
+    width: 40px;
+  }
+  #bootstrap, #html, #js, #github, #vue, #react {
+    height: 30px;
+    width: 30px;
+  }
+  #mongodb, #nodejs, #angular {
+    height: 30px;
+    width: 27px;
+  }
+  .abilities-wrapper {
+      display:flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-content: center;
+    padding-right: 47px;
+  }
+}
+
+.i-can-do-wrapper {
+  margin: 0 ;
+}

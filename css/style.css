@@ -14,6 +14,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
   display: inline-block; }
 
+h2 {
+  display: block;
+  margin-bottom: 100px; }
+
 * {
   color: #b7b7b7;
   font-weight: 400;
@@ -31,6 +35,10 @@ li {
 
 h1, h2, h3, h4, h5, h6, p, q {
   font-family: 'Anonymous Pro', monospace; }
+
+h2 {
+  font-size: 36px;
+  font-weight: 700; }
 
 #site {
   display: flex;
@@ -92,7 +100,8 @@ header {
 .container {
   width: 100%;
   max-width: 950px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding: 65px 0; }
 
 footer {
   background: #0e1111;
@@ -122,24 +131,49 @@ footer {
   text-align: right; }
 
 #portfolio {
-  min-height: 700px;
-  padding-top: 65px; }
-  #portfolio h2 {
-    font-size: 36px;
-    display: block;
-    margin-bottom: 100px; }
+  min-height: 700px; }
   #portfolio #small-blog-picture {
     width: 255px;
     height: 140px;
     margin-bottom: 100px; }
   #portfolio .tbc {
     width: 500px;
-    margin: 20px auto; }
+    margin: 20px auto 100px; }
 
 #forum-link {
   transition: all .3s; }
   #forum-link:hover {
     color: #9d6d4e; }
+
+#about {
+  background: #2d2d2d; }
+  #about #about-me {
+    margin-bottom: 50px; }
+  #about #abilities {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 50px; }
+  #about b {
+    font-size: 20px; }
+  #about #sass {
+    height: 30px;
+    width: 40px; }
+  #about #bootstrap, #about #html, #about #js, #about #github, #about #vue, #about #react {
+    height: 30px;
+    width: 30px; }
+  #about #mongodb, #about #nodejs, #about #angular {
+    height: 30px;
+    width: 27px; }
+  #about .abilities-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    padding-right: 47px; }
+
+.i-can-do-wrapper {
+  margin: 0; }
 
 .clearfix::after {
   content: "";
