@@ -68,21 +68,16 @@ header {
 
 .logo-and-text-wrapper {
   width: 240px; }
-  .logo-and-text-wrapper .logo-text-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 130px;
-    transform: translate(0%, -50%); }
   .logo-and-text-wrapper #brand-logo-link {
     font-size: 0; }
 
-.logo-text-wrapper h1 {
-  font-size: 24px;
+h1 {
+  font-size: 21px;
   font-family: 'Segoe Script', monospace; }
 
-.logo-text-wrapper #speciality {
+#speciality {
   font-family: "Times New Roman", monospace;
-  font-size: 18px; }
+  font-size: 17px; }
 
 #brand-logo-link #brand-logo {
   width: 60px;
@@ -93,9 +88,39 @@ header {
     clear: both;
     display: block; }
 
-.main-nav-item {
+#main-nav .main-nav-item {
   margin: 0 5px;
-  padding: 10px; }
+  padding: 10px;
+  position: relative;
+  transition: all .3s; }
+
+#main-nav .main-nav-item:hover {
+  color: #fff; }
+
+#main-nav .main-nav-item::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #7ccc10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all .3s; }
+
+#main-nav .main-nav-item:hover::after {
+  opacity: 1; }
+
+#main-nav .main-nav-item .active::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #7ccc10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all .3s; }
 
 .container {
   width: 100%;
@@ -151,18 +176,17 @@ footer {
   font-size: 24px;
   text-align: right; }
 
-#portfolio {
-  min-height: 700px; }
-  #portfolio #small-blog-picture {
-    width: 255px;
-    height: 140px;
-    margin-bottom: 100px; }
-  #portfolio .tbc {
-    width: 500px;
-    margin: 20px auto 100px; }
+#portfolio #small-blog-picture {
+  width: 255px;
+  height: 140px;
+  margin-bottom: 100px; }
+#portfolio .tbc {
+  width: 500px;
+  margin: 20px auto 100px; }
 
 #forum-link {
-  transition: all .3s; }
+  transition: all .3s;
+  cursor: pointer; }
   #forum-link:hover {
     color: #9d6d4e; }
 
@@ -185,6 +209,12 @@ footer {
   #about #mongodb, #about #nodejs, #about #angular {
     height: 30px;
     width: 27px; }
+  #about #mean {
+    height: 30px;
+    width: 78px; }
+  #about #mongoose {
+    height: 30px;
+    width: 145px; }
   #about .abilities-wrapper {
     display: flex;
     flex-direction: row;
@@ -215,8 +245,8 @@ footer {
     color: black;
     transition: all .3s; }
     .form-container button:hover {
-      background: #9d6d4e;
-      color: #b7b7b7; }
+      background: #7ccc10;
+      color: #fff; }
 
 .form-input {
   width: 260px;

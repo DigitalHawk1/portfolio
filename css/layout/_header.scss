@@ -22,35 +22,25 @@ header {
 
 .logo-and-text-wrapper {
   width: 240px;
-
-  .logo-text-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 130px;
-    transform: translate(0%, -50%);
-  }
-
   #brand-logo-link {
     font-size: 0;
-
   }
 }
 
-.logo-text-wrapper h1 {
-  font-size: 24px;
+h1 {
+  font-size: 21px;
   font-family: 'Segoe Script', monospace;
 }
 
-.logo-text-wrapper #speciality {
+#speciality {
   font-family: "Times New Roman", monospace;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 #brand-logo-link #brand-logo {
   width: 60px;
   height: 60px;
   float: left;
-
   &::after {
     content: "";
     clear: both;

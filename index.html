@@ -28,10 +28,8 @@
     <div class="header-flex-container">
         <div class="logo-and-text-wrapper ">
             <a id="brand-logo-link" href="#hero"><img id="brand-logo" src="./img/brand-logo.png" alt="Brand logo"></a>
-            <div class="logo-text-wrapper">
                 <h1>Antanas Stanys</h1>
                 <p id="speciality">Front-end programuotojas</p>
-            </div>
         </div>
         <nav id="main-nav">
             <a class="main-nav-item" href="#hero">Pagrindinis</a>
@@ -41,7 +39,7 @@
         </nav>
     </div>
 </header>
-<div class="site-content">
+<div class="site-content" data-ui-view>
     <section id="hero">
         <div class="quote-wrapper">
             <q id="quote">Talk is cheap. Show me the code.</q>
@@ -53,11 +51,8 @@
         <div class="container">
             <h2>Portfolio</h2>
 
-            <a data-ui-sref="blog"><img id="small-blog-picture" src="./img/blog.png" alt="Blog picture"></a>
-
-            <p class="tbc">Šiuo metu ruošiu Advanced Javascript'o kurso baigiamąjį darbą.
-                Baigiamojo darbo kodą galite pamatyti šia nuoroda: <a id="forum-link"
-                                                                      href="https://github.com/DigitalHawk1/Forum">Forumas</a>
+            <p class="tbc">Šiuo metu ruošiu Advanced Javascript'o kurso <br> baigiamąjį darbą.
+                <a id="forum-link" data-ui-sref="forum">Daugiau apie šį darbą.</a>
             </p>
 
             <p class="tbc">Laukite tęsinio...</p>
@@ -79,16 +74,14 @@
                 <div class="i-can-do-wrapper">
 
                     <ul>
-                        <li><b>Moku</b></li>
+                        <li><b>Turiu žinių</b></li>
                         <li><br></li>
-                        <li><img id="html" src="./img/HTML5_Badge_256.png" alt=""></li>
-                        <li><img id="sass" src="./img/sass-logo-new.png" alt=""></li>
-                        <li><img id="js" src="./img/js.png" alt=""></li>
-                        <li><img id="bootstrap" src="./img/Bootstrap.png" alt="Bootstrap icon"></li>
-                        <li><img id="github" src="./img/github.png" alt=""></li>
-                        <li><img id="angular" src="./img/AngularJS-Shield.svg" alt=""></li>
-                        <li><img id="nodejs" src="./img/nodejs.png" alt=""></li>
-                        <li><img id="mongodb" src="./img/mongodb.png" alt="MongoDB icon"></li>
+                        <li><img id="html" src="./img/HTML5_Badge_256.png" alt="HTML5 logo"></li>
+                        <li><img id="sass" src="./img/sass-logo-new.png" alt="SASS logo"></li>
+                        <li><img id="js" src="./img/js.png" alt="JS logo"></li>
+                        <li><img id="bootstrap" src="./img/Bootstrap.png" alt="Bootstrap logo"></li>
+                        <li><img id="github" src="./img/github.png" alt="GitHub logo"></li>
+                        <li><img id="mean" src="./img/mean.png" alt="MEAN logo"></li>
                     </ul>
                 </div>
                 <div class="i-want-to-learn">
@@ -96,9 +89,8 @@
                     <ul>
                         <li><b>Noriu išmokti</b></li>
                         <li><br></li>
-                        <li><img id="vue" src="./img/vuejs.png" alt=""></li>
-                        <li><img id="react" src="./img/react.png" alt=""></li>
-                        <li></li>
+                        <li><img id="vue" src="./img/vuejs.png" alt="VueJS logo"></li>
+                        <li><img id="react" src="./img/react.png" alt="ReactJS logo"></li>
                     </ul>
                 </div>
             </div>
@@ -120,7 +112,6 @@
             </div>
         </div>
     </section>
-
 </div>
 <footer>
     <div class="container">

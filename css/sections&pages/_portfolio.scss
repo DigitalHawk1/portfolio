@@ -1,5 +1,4 @@
 #portfolio {
-  min-height: 700px;
   #small-blog-picture {
     width: 255px;
     height: 140px;
@@ -13,6 +12,7 @@
 
 #forum-link {
   transition: all .3s;
+  cursor: pointer;
   &:hover {
     color: #9d6d4e;
   }

@@ -1,4 +1,39 @@
-.main-nav-item {
+#main-nav .main-nav-item {
   margin: 0 5px;
   padding: 10px;
+  position: relative;
+  transition: all .3s;
+
 }
+
+#main-nav .main-nav-item:hover {
+  color: #fff;
+}
+#main-nav .main-nav-item::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #7ccc10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all .3s;
+}
+
+#main-nav .main-nav-item:hover::after {
+  opacity: 1;
+}
+
+#main-nav .main-nav-item .active::after {
+  content: '';
+  position: absolute;
+  height: 3px;
+  background-color: #7ccc10;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: all .3s;
+}
+
