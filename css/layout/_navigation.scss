@@ -1,9 +1,23 @@
+#main-nav {
+  @media screen and (max-width: 735px) {
+    margin: 10px 0;
+  }
+  #main-nav-span {
+    @media screen and (max-width: 465px) {
+      display: block;
+      margin: 20px auto 10px;
+    }
+  }
+}
+
 #main-nav .main-nav-item {
   margin: 0 5px;
   padding: 10px;
   position: relative;
   transition: all .3s;
-
+  @media screen and (max-width: 465px) {
+    margin: 10px 5px;
+  }
 }
 
 #main-nav .main-nav-item:hover {
@@ -23,6 +37,9 @@
 
 #main-nav .main-nav-item:hover::after {
   opacity: 1;
+  @media screen and (max-width: 465px) {
+    opacity: 0;
+  }
 }
 
 #main-nav .main-nav-item .active::after {

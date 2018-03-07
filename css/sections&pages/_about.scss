@@ -35,15 +35,18 @@
   }
 
   .abilities-wrapper {
-      display:flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: center;
-      align-content: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
     padding-right: 47px;
+    @media screen and (max-width: 328px) {
+      padding-right: 40px;
+    }
   }
 }
 
 .i-can-do-wrapper {
-  margin: 0 ;
+  margin: 0;
 }

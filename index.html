@@ -28,14 +28,16 @@
     <div class="header-flex-container">
         <div class="logo-and-text-wrapper ">
             <a id="brand-logo-link" href="#hero"><img id="brand-logo" src="./img/brand-logo.png" alt="Brand logo"></a>
-                <h1>Antanas Stanys</h1>
-                <p id="speciality">Front-end programuotojas</p>
+            <h1>Antanas Stanys</h1>
+            <p id="speciality">Front-end programuotojas</p>
         </div>
         <nav id="main-nav">
             <a class="main-nav-item" href="#hero">Pagrindinis</a>
             <a class="main-nav-item" href="#portfolio">Portfolio</a>
-            <a class="main-nav-item" href="#about">Apie mane</a>
-            <a class="main-nav-item" href="#contacts">Parašykite man</a>
+            <span id="main-nav-span">
+                <a class="main-nav-item" href="#about">Apie mane</a>
+                <a class="main-nav-item" href="#contacts">Parašykite man</a>
+            </span>
         </nav>
     </div>
 </header>
@@ -51,7 +53,7 @@
         <div class="container">
             <h2>Portfolio</h2>
 
-            <p class="tbc">Šiuo metu ruošiu Advanced Javascript'o kurso <br> baigiamąjį darbą.
+            <p class="tbc">Šiuo metu ruošiu Advanced Javascript'o kurso <br id="tbc-br"> baigiamąjį darbą.
                 <a id="forum-link" data-ui-sref="forum">Daugiau apie šį darbą.</a>
             </p>
 
@@ -82,6 +84,7 @@
                         <li><img id="bootstrap" src="./img/Bootstrap.png" alt="Bootstrap logo"></li>
                         <li><img id="github" src="./img/github.png" alt="GitHub logo"></li>
                         <li><img id="mean" src="./img/mean.png" alt="MEAN logo"></li>
+                        <li><br></li>
                     </ul>
                 </div>
                 <div class="i-want-to-learn">

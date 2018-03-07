@@ -1,6 +1,9 @@
 .form-container {
   width: 550px;
   margin: 0 auto;
+  @media screen and (max-width: 555px) {
+    width: 270px;
+  }
   span {
     display: flex;
     flex-direction: row;
@@ -31,6 +34,9 @@
   border: none;
   padding: 2px 5px;
   color: black;
+  @media screen and (max-width: 555px) {
+    width: 130px;
+  }
 }
 
 textarea {
@@ -42,4 +48,7 @@ textarea {
   margin-bottom: 20px;
   padding: 5px;
   color: black;
+  @media screen and (max-width: 555px) {
+    width: 270px;
+  }
 }

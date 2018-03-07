@@ -1,12 +1,14 @@
 #portfolio {
-  #small-blog-picture {
-    width: 255px;
-    height: 140px;
-    margin-bottom: 100px;
-  }
   .tbc {
     width: 500px;
     margin: 20px auto 100px;
+    @media screen and (max-width: 505px) {
+      width: 310px;
+    }
+    @media screen and (max-width: 310px) {
+      width: 190px;
+      font-size: 15px;
+    }
   }
 }
 
@@ -15,5 +17,11 @@
   cursor: pointer;
   &:hover {
     color: #9d6d4e;
+  }
+}
+
+#tbc-br {
+  @media screen and (max-width: 310px) {
+    display: none;
   }
 }
