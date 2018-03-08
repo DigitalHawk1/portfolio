@@ -328,6 +328,23 @@ textarea {
     textarea {
       width: 270px; } }
 
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px; }
+
+#about-work {
+  position: relative;
+  margin-bottom: 20px; }
+  #about-work:after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #b7b7b7; }
+
 .clearfix::after {
   content: "";
   clear: both;
