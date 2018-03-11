@@ -24,10 +24,9 @@
   color: #fff;
 }
 #main-nav .main-nav-item::after {
-  content: '';
-  position: absolute;
+  @include after-before;
   height: 3px;
-  background-color: #7ccc10;
+  background-color: $FourthColor;
   left: 0;
   right: 0;
   bottom: 0;
@@ -43,10 +42,9 @@
 }
 
 #main-nav .main-nav-item .active::after {
-  content: '';
-  position: absolute;
+  @include after-before;
   height: 3px;
-  background-color: #7ccc10;
+  background-color: $FourthColor;
   left: 0;
   right: 0;
   bottom: 0;

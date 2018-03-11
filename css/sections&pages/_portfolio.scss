@@ -1,7 +1,7 @@
 #portfolio {
-  .tbc {
+  .work {
     width: 500px;
-    margin: 20px auto 100px;
+    margin: 20px auto 40px;
     @media screen and (max-width: 505px) {
       width: 310px;
     }
@@ -12,16 +12,14 @@
   }
 }
 
-#forum-link {
+.works-link {
   transition: all .3s;
   cursor: pointer;
   &:hover {
-    color: #9d6d4e;
+    color: $FifthColor;
   }
 }
 
-#tbc-br {
-  @media screen and (max-width: 310px) {
-    display: none;
-  }
+.tbc {
+  margin: 65px auto 0;
 }

@@ -1,5 +1,5 @@
 #about {
-  background: #2d2d2d;
+  background: $SecondClr;
   #about-me {
     margin-bottom: 50px;
   }
@@ -10,28 +10,6 @@
   }
   b {
     font-size: 20px;
-  }
-  #sass {
-    height: 30px;
-    width: 40px;
-  }
-  #bootstrap, #html, #js, #github, #vue, #react {
-    height: 30px;
-    width: 30px;
-  }
-  #mongodb, #nodejs, #angular {
-    height: 30px;
-    width: 27px;
-  }
-
-  #mean {
-    height: 30px;
-    width: 78px;
-  }
-
-  #mongoose {
-    height: 30px;
-    width: 145px;
   }
 
   .abilities-wrapper {
@@ -49,4 +27,10 @@
 
 .i-can-do-wrapper {
   margin: 0;
+}
+
+#about-me-br {
+  @media screen and (max-width: 310px) {
+    display: none;
+  }
 }

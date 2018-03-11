@@ -1,0 +1,13 @@
+@mixin flex-container ($flex-wrap) {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: $flex-wrap;
+}
+
+@mixin after-before {
+  content: '';
+  position: absolute;
+}

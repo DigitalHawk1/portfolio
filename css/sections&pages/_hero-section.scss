@@ -16,15 +16,13 @@
   }
 
   &:after {
-    content: '';
-    position: absolute;
+    @include after-before;
     bottom: 0;
     width: 100%;
   }
 
   &:before {
-    content: '';
-    position: absolute;
+    @include after-before;
     bottom: 0;
     width: 100%;
   }

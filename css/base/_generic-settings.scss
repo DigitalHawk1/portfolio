@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  font-size: 16px;
+  font-size: $TextFZ
 }
 
 html, body {
@@ -21,4 +21,8 @@ h1, h2, h3, h4, h5, h6 {
 h2 {
   display: block;
   margin-bottom: 100px;
+}
+
+a {
+  cursor: pointer;
 }

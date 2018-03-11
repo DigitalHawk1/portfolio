@@ -8,12 +8,22 @@ h3 {
   position: relative;
   margin-bottom: 20px;
   &:after {
-    content: '';
-    position: absolute;
+    @include after-before;
     bottom: -10px;
     left: 0;
     right: 0;
     height: 1px;
-    background: #b7b7b7;
+    background: $ThirdClr;
+  }
+}
+
+.github-link {
+  font-size: 20px;
+  cursor: pointer;
+  display: block;
+  transition: all .3s;
+  margin-bottom: 20px;
+  &:hover {
+    color: $FifthColor
   }
 }
