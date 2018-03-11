@@ -2,14 +2,29 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "Antano Stanio portfolio",
-  "main": "index.js",
+  "main": "./js/dist/app.module.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel js/src -d js/dist",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": "js/src/**/*.js"
   },
   "author": "Antanas Stanys",
   "license": "ISC",
   "dependencies": {
     "@uirouter/angularjs": "^1.0.15",
-    "angular": "^1.6.9"
+    "angular": "^1.6.9",
+    "npm-watch": "^0.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
+  "babel": {
+    "presets": [
+      "env"
+    ]
   }
 }

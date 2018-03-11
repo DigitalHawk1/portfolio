@@ -23,25 +23,14 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
     <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-    <script src="./js/app.module.js"></script>
-    <script src="./js/app.config.js"></script>
+    <script src="js/src/app.module.js"></script>
+    <script src="js/dist/app.config.js"></script>
+    <script src="js/dist/appCtrl.js"></script>
 </head>
-<body id="site" data-ng-app="app">
-<header>
-    <div class="header-flex-container">
-        <div class="logo-and-text-wrapper ">
-            <a id="brand-logo-link" href="#hero"><img id="brand-logo" src="./img/brand-logo.png" alt="Brand logo"></a>
-            <h1>Antanas Stanys</h1>
-            <p id="speciality">Front-end programuotojas</p>
-        </div>
-        <nav id="main-nav" data-ui-view="view-navbar">
+<body id="site" data-ng-app="app" data-ng-controller="appCtrl">
 
-        </nav>
-    </div>
-</header>
-<div class="site-content" data-ui-view="view-content">
+<data-ui-view></data-ui-view>
 
-</div>
 <footer>
     <div class="container">
         <nav id="footer-social-nav">
