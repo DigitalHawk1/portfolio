@@ -8,7 +8,7 @@
     @include flex-container(wrap);
     margin-bottom: $margin-bottom;
   }
-  button {
+  #send {
     width: 260px;
     height: 40px;
     border: none;

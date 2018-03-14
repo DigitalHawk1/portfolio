@@ -21,13 +21,15 @@
           rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-    <script src="//unpkg.com/@uirouter/angularjs/release/angular-ui-router.min.js"></script>
-    <script src="js/src/app.module.js"></script>
-    <script src="js/dist/app.config.js"></script>
-    <script src="js/dist/appCtrl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.9/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.3/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/1.0.2/angular-scroll.min.js"></script>
+    <script src="js/app.module.js"></script>
+    <script src="js/app.config.js"></script>
+
+    <base href="/">
 </head>
-<body id="site" data-ng-app="app" data-ng-controller="appCtrl">
+<body id="site" data-ng-app="app">
 
 <data-ui-view></data-ui-view>
 
@@ -44,7 +46,7 @@
                 <span class="fab-wrapper"><i class="fab fa-github-square"></i></span>
             </a>
         </nav>
-        <p>Mano rankų darbas © 2018 - Klaipėda</p>
+        <p data-ui-view="footer"></p>
     </div>
 </footer>
 </body>

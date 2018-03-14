@@ -1,19 +1,22 @@
 <header>
     <div class="header-flex-container">
         <div class="logo-and-text-wrapper ">
-            <a id="brand-logo-link" ng-click="scrollTo('hero')"><img id="brand-logo" src="./img/brand-logo.png" alt="Brand logo"></a>
+            <a id="brand-logo-link" ng-click="scrollTo('hero')"><img id="brand-logo" src="./img/brand-logo.png"
+                                                                     alt="Brand logo"></a>
             <h1>Antanas Stanys</h1>
-            <p id="speciality">Front-end programuotojas</p>
+            <p id="speciality">Front-end developer</p>
         </div>
         <nav id="main-nav">
-            <a class="main-nav-item" href="#hero">Pagrindinis</a>
+            <a class="main-nav-item" href="#hero">Home</a>
             <a class="main-nav-item" href="#portfolio">Portfolio</a>
             <span id="main-nav-span">
-                <a class="main-nav-item" href="#about">Apie mane</a>
-                <a class="main-nav-item" href="#contacts">Parašykite man</a>
+                <a class="main-nav-item" href="#about">About me</a>
+                <a class="main-nav-item" href="#contacts">Write to me</a>
             </span>
-            <a id="language-link" data-ui-sref="main-en"><img id="language-flag" src="./img/United-Kingdom-Flag.png" alt="UK Flag"></a>
+            <a id="language-link" data-ui-sref="main"><img id="language-flag" src="./img/Lithuania-Flag-icon.png"
+                                                           alt="LTU Flag"></a>
         </nav>
+
     </div>
 </header>
 <div class="site-content">
@@ -28,32 +31,31 @@
         <div class="container">
             <h2>Portfolio</h2>
 
-            <p class="work">Šiuo metu ruošiu Advanced Javascript'o kurso baigiamąjį darbą.
-                <a class="works-link" data-ui-sref="forum">Daugiau apie darbą.</a>
+            <p class="work">At this moment I'm working on my final work in advanced Javascript course.
+                <a class="works-link" data-ui-sref="forum-en">More about work.</a>
             </p>
 
-            <a class="works-link" data-ui-sref="portfolio">Daugiau informacijos apie portfolio.</a>
+            <a class="works-link" data-ui-sref="portfolio-en">More about portfolio.</a>
 
-            <p class="tbc">Laukite tęsinio...</p>
+            <p class="tbc">To be continued...</p>
         </div>
     </section>
     <section id="about">
         <div class="container">
-            <h2>Trumpai apie mane</h2>
+            <h2>About me</h2>
 
             <p id="about-me">
-                Šiuo metu mokausi Klaipėdoje, Baltic Talents akademijoje, metiniuose web programavimo kursuose. Kol kas
-                labiausiai koncentruojuosi į front-endą, tačiau neatmetu galimybės, ateityje, įgijus patirties tapti
-                <br id="about-me-br`x">full-stack web programuotoju. Esu labai motyvuotas ir pasiryžęs mokytis.
+                I am studying web development at Klaipėda Baltic Talents academy. At this moment I am focused on
+                front-end development. But in the future I want to become a full-stack web developer.
             </p>
 
 
-            <h3 id="skills">Mano sugebėjimai</h3>
+            <h3 id="skills">My skills</h3>
             <div class="skills-wrapper">
                 <div class="i-can-do-wrapper">
 
                     <ul>
-                        <li><b>Moku</b></li>
+                        <li><b>I can use</b></li>
                         <li><br></li>
                         <li><img id="html" src="./img/HTML5_Badge_256.png" alt=""></li>
                         <li><img id="sass" src="./img/sass-logo-new.png" alt=""></li>
@@ -66,7 +68,7 @@
                 <div class="i-want-to-learn">
 
                     <ul>
-                        <li><b>Noriu išmokti</b></li>
+                        <li><b>Want to learn</b></li>
                         <li><br></li>
                         <li><img id="vue" src="./img/vuejs.png" alt=""></li>
                         <li><img id="react" src="./img/react.png" alt=""></li>
@@ -78,17 +80,17 @@
     </section>
     <section id="contacts">
         <div class="container">
-            <h2>Parašykite man</h2>
+            <h2>Write me</h2>
 
             <div class="form-container">
                 <form action="https://formspree.io/antanaslstanys@gmail.com"
                       method="POST">
                     <span>
-                        <input class="form-input" type="text" name="name" placeholder="Jūsų vardas" required>
-                        <input class="form-input" type="email" name="_replyto" placeholder="El. paštas" required>
+                        <input class="form-input" type="text" name="name" placeholder="Your name" required>
+                        <input class="form-input" type="email" name="_replyto" placeholder="Email" required>
                     </span>
-                    <textarea name="message" id="" cols="30" rows="10" placeholder="Jūsų žinutė" required></textarea>
-                    <input id="send" type="submit" value="Siūsti">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Your message" required></textarea>
+                    <input id="send" type="submit" value="Send">
                 </form>
             </div>
         </div>

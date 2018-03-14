@@ -3,7 +3,7 @@
   #about-me {
     margin-bottom: 50px;
   }
-  #abilities {
+  #skills {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 50px;
@@ -12,21 +12,25 @@
     font-size: 20px;
   }
 
-  .abilities-wrapper {
+  .skills-wrapper {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     align-content: center;
-    padding-right: 47px;
+    padding-right: 20px;
     @media screen and (max-width: 328px) {
-      padding-right: 40px;
+      padding-right: 20px;
     }
   }
 }
 
 .i-can-do-wrapper {
-  margin: 0;
+  margin-right: 12px;
+}
+
+.i-want-to-learn {
+  margin-left: 12px;
 }
 
 #about-me-br {

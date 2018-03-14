@@ -1,6 +1,5 @@
 header {
   position: fixed;
-
   background: $MainClr;
   width: 100%;
   -webkit-box-shadow: inset 0px -10px 25px -5px rgba(183, 183, 183, 0.31);
@@ -17,6 +16,13 @@ header {
       display: block;
       margin: 0 auto;
     }
+  }
+  #language-flag {
+    height: 16px;
+    width: 16px;
+  }
+  #language-link {
+    font-size: 0;
   }
 }
 

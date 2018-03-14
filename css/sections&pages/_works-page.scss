@@ -1,29 +1,39 @@
 h3 {
   font-size: 20px;
   font-weight: 700;
-  margin-bottom: 20px;
+  margin-bottom: $margin-bottom;
+  display: block;
 }
 
 #about-work {
   position: relative;
-  margin-bottom: 20px;
-  &:after {
-    @include after-before;
-    bottom: -10px;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: $ThirdClr;
-  }
+  margin-bottom: $margin-bottom;
 }
 
 .github-link {
   font-size: 20px;
   cursor: pointer;
-  display: block;
+  display: inline-block;
   transition: all .3s;
-  margin-bottom: 20px;
+  margin-bottom: $margin-bottom;
   &:hover {
     color: $FifthColor
+  }
+}
+#about-work-list {
+  text-align: left;
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 290px;
+  &:after {
+    @include after-before;
+    bottom: -40px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: $ThirdClr;
+  }
+  .about-work-item {
+    list-style: circle;
   }
 }
