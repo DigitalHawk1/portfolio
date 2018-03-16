@@ -25,11 +25,27 @@ h3 {
   position: relative;
   margin-bottom: 50px;
   padding-left: 290px;
+  @media screen and (max-width: 940px) {
+    padding-left: 230px;
+  }
+  @media screen and (max-width: 860px) {
+    padding-left: 200px;
+  }
+  @media screen and (max-width: 790px) {
+    padding-left: 160px;
+  }
+  @media screen and (max-width: 700px) {
+    padding-left: 120px;
+  }
+  @media screen and (max-width: 620px) {
+    padding-left: 75px;
+  }
+
   &:after {
     @include after-before;
     bottom: -40px;
-    left: 0;
-    right: 0;
+    left: 2px;
+    right: 2px;
     height: 1px;
     background: $ThirdClr;
   }
