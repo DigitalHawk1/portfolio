@@ -12,6 +12,20 @@
   }
 }
 
+.portfolio-flex-container {
+  @include flex-container(wrap, center);
+  padding: 20px;
+  a {
+    img {
+      width: 250px;
+      height: 150px;
+      border-radius: 5px;
+      border: 1px solid #fff;
+      margin: 20px;
+    }
+  }
+}
+
 .works-link {
   transition: all .3s;
   cursor: pointer;

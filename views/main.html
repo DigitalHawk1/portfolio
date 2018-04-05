@@ -12,7 +12,8 @@
                 <a class="main-nav-item" href="#about">Apie mane</a>
                 <a class="main-nav-item" href="#contacts">Parašykite man</a>
             </span>
-            <a id="language-link" data-ui-sref="main-en"><img id="language-flag" src="./img/United-Kingdom-Flag.png" alt="UK Flag"></a>
+            <a id="language-link" data-ui-sref="main-en"><img id="language-flag" src="./img/United-Kingdom-Flag.png"
+                                                              alt="UK Flag"></a>
         </nav>
     </div>
 </header>
@@ -27,12 +28,13 @@
     <section id="portfolio">
         <div class="container">
             <h2>Portfolio</h2>
+            <div class="portfolio-flex-container">
+                <a data-ui-sref="portfolio"><img src="./img/portfolio.png" alt="Portfolio photo" title="Portfolio"></a>
 
-            <p class="work">Šiuo metu ruošiu Advanced Javascript'o kurso baigiamąjį darbą.
-                <a class="works-link" data-ui-sref="forum">Daugiau apie darbą.</a>
-            </p>
+                <a data-ui-sref="forum"><img src="./img/acrostia.png" alt="Acrostia photo" title="Acrostia"></a>
 
-            <a class="works-link" data-ui-sref="portfolio">Daugiau informacijos apie portfolio.</a>
+                <a data-ui-sref="acrostia"><img src="./img/forumas.png" alt="Forumas photo" title="Forumas"></a>
+            </div>
 
             <p class="tbc">Laukite tęsinio...</p>
         </div>
@@ -44,7 +46,7 @@
             <p id="about-me">
                 Šiuo metu mokausi Klaipėdoje, Baltic Talents akademijoje, metiniuose web programavimo kursuose. Kol kas
                 labiausiai koncentruojuosi į front-endą, tačiau neatmetu galimybės, ateityje, įgijus patirties tapti
-                <br id="about-me-br`x">full-stack web programuotoju. Esu labai motyvuotas ir pasiryžęs mokytis.
+                <br id="about-me-br">full-stack web programuotoju. Esu labai motyvuotas ir pasiryžęs mokytis.
             </p>
 
 
@@ -55,12 +57,15 @@
                     <ul>
                         <li><b>Moku</b></li>
                         <li><br></li>
-                        <li><img id="html" src="./img/HTML5_Badge_256.png" alt=""></li>
-                        <li><img id="sass" src="./img/sass-logo-new.png" alt=""></li>
-                        <li><img id="js" src="./img/js.png" alt=""></li>
-                        <li><img id="bootstrap" src="./img/Bootstrap.png" alt="Bootstrap icon"></li>
-                        <li><img id="github" src="./img/github.png" alt=""></li>
-                        <li><img id="mean" src="./img/mean.png" alt="MEAN logo"></li>
+                        <li><img class="square" id="html" src="./img/HTML5_Badge_256.png" alt="HTML5 logo"
+                                 title="HTML5"></li>
+                        <li><img id="sass" src="./img/sass-logo-new.png" alt="SASS logo" title="SASS"></li>
+                        <li><img class="square" id="js" src="./img/js.png" alt="JS logo" title="JavaScript"></li>
+                        <li><img class="square" id="bootstrap" src="./img/Bootstrap.png" alt="Bootstrap logo"
+                                 title="Bootstrap"></li>
+                        <li><img class="square" id="github" src="./img/github.png" alt="GitHub logo" title="GitHub">
+                        </li>
+                        <li><img id="mean" src="./img/mean.png" alt="MEAN logo" title="MEAN"></li>
                     </ul>
                 </div>
                 <div class="i-want-to-learn">
@@ -68,8 +73,9 @@
                     <ul>
                         <li><b>Noriu išmokti</b></li>
                         <li><br></li>
-                        <li><img id="vue" src="./img/vuejs.png" alt=""></li>
-                        <li><img id="react" src="./img/react.png" alt=""></li>
+                        <li><img class="square" id="vue" src="./img/vuejs.png" alt="VueJS logo" title="VueJS"></li>
+                        <li><img class="square" id="react" src="./img/react.png" alt="ReactJS logo" title="ReactJS">
+                        </li>
                         <li></li>
                     </ul>
                 </div>

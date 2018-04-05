@@ -1,7 +1,7 @@
 <header>
     <div class="header-flex-container">
         <div class="logo-and-text-wrapper ">
-            <a id="brand-logo-link" href="#hero"><img id="brand-logo" src="./img/brand-logo.png"
+            <a id="brand-logo-link" href="#hero"><img id="brand-logo" src="../img/brand-logo.png"
                                                                      alt="Brand logo"></a>
             <h1>Antanas Stanys</h1>
             <p id="speciality">Front-end developer</p>
@@ -13,7 +13,7 @@
                 <a class="main-nav-item" href="#about">About me</a>
                 <a class="main-nav-item" href="#contacts">Write to me</a>
             </span>
-            <a id="language-link" data-ui-sref="main"><img id="language-flag" src="./img/Lithuania-Flag-icon.png"
+            <a id="language-link" data-ui-sref="main"><img id="language-flag" src="../img/Lithuania-Flag-icon.png"
                                                            alt="LTU Flag"></a>
         </nav>
 
@@ -31,11 +31,13 @@
         <div class="container">
             <h2>Portfolio</h2>
 
-            <p class="work">At this moment I'm working on my final work in advanced Javascript course.
-                <a class="works-link" data-ui-sref="forum-en">More about work.</a>
-            </p>
+            <div class="portfolio-flex-container">
+                <a data-ui-sref="portfolio-en"><img src="./img/portfolio.png" alt="Portfolio photo" title="Portfolio"></a>
 
-            <a class="works-link" data-ui-sref="portfolio-en">More about portfolio.</a>
+                <a data-ui-sref="forum-en"><img src="./img/acrostia.png" alt="Acrostia photo" title="Acrostia"></a>
+
+                <a data-ui-sref="acrostia-en"><img src="./img/forumas.png" alt="Forumas photo" title="Forumas"></a>
+            </div>
 
             <p class="tbc">To be continued...</p>
         </div>
@@ -55,23 +57,23 @@
                 <div class="i-can-do-wrapper">
 
                     <ul>
-                        <li><b>I can use</b></li>
+                        <li><b>Moku</b></li>
                         <li><br></li>
-                        <li><img id="html" src="./img/HTML5_Badge_256.png" alt=""></li>
-                        <li><img id="sass" src="./img/sass-logo-new.png" alt=""></li>
-                        <li><img id="js" src="./img/js.png" alt=""></li>
-                        <li><img id="bootstrap" src="./img/Bootstrap.png" alt="Bootstrap icon"></li>
-                        <li><img id="github" src="./img/github.png" alt=""></li>
-                        <li><img id="mean" src="./img/mean.png" alt="MEAN logo"></li>
+                        <li><img class="square" id="html" src="./img/HTML5_Badge_256.png" alt="HTML5 logo" title="HTML5"></li>
+                        <li><img id="sass" src="./img/sass-logo-new.png" alt="SASS logo" title="SASS"></li>
+                        <li><img class="square" id="js" src="./img/js.png" alt="JS logo" title="JavaScript"></li>
+                        <li><img class="square" id="bootstrap" src="./img/Bootstrap.png" alt="Bootstrap logo" title="Bootstrap"></li>
+                        <li><img class="square" id="github" src="./img/github.png" alt="GitHub logo" title="GitHub"></li>
+                        <li><img id="mean" src="./img/mean.png" alt="MEAN logo" title="MEAN"></li>
                     </ul>
                 </div>
                 <div class="i-want-to-learn">
 
                     <ul>
-                        <li><b>Want to learn</b></li>
+                        <li><b>Noriu išmokti</b></li>
                         <li><br></li>
-                        <li><img id="vue" src="./img/vuejs.png" alt=""></li>
-                        <li><img id="react" src="./img/react.png" alt=""></li>
+                        <li><img class="square" id="vue" src="./img/vuejs.png" alt="VueJS logo" title="VueJS"></li>
+                        <li><img class="square" id="react" src="./img/react.png" alt="ReactJS logo" title="ReactJS"></li>
                         <li></li>
                     </ul>
                 </div>

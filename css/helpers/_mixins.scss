@@ -1,9 +1,9 @@
-@mixin flex-container ($flex-wrap) {
+@mixin flex-container ($flex-wrap, $justify-content: space-between) {
   display: flex;
   flex-direction: row;
   align-content: center;
   align-items: center;
-  justify-content: space-between;
+  justify-content: $justify-content;
   flex-wrap: $flex-wrap;
 }
 
