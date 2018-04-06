@@ -7,7 +7,7 @@ h3 {
 
 #about-work {
   position: relative;
-  margin-bottom: $margin-bottom;
+  margin-bottom: 50px;
 }
 
 .github-link {
@@ -20,6 +20,7 @@ h3 {
     color: $FifthColor
   }
 }
+
 #about-work-list {
   text-align: left;
   position: relative;
@@ -51,5 +52,18 @@ h3 {
   }
   .about-work-item {
     list-style: circle;
+  }
+}
+
+.works-img-wrapper {
+  @include flex-container(wrap, center);
+  padding: 10px;
+  margin-bottom: 50px;
+  .works-img {
+    width: 47%;
+    height: 38vh;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 10px;
   }
 }

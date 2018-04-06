@@ -1,18 +1,21 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Antano Stanio portfolio",
-  "main": "./js/dist/app.module.js",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
-    "test": "standard"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DigitalHawk1/portfolio.git"
   },
   "author": "Antanas Stanys",
   "license": "ISC",
-  "dependencies": {
-    "@uirouter/angularjs": "^1.0.15",
-    "angular": "^1.6.9",
+  "bugs": {
+    "url": "https://github.com/DigitalHawk1/portfolio/issues"
   },
-  "devDependencies": {
-    "standard": "*"
-  }
+  "homepage": "https://github.com/DigitalHawk1/portfolio#readme"
 }

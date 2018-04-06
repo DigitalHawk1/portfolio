@@ -77,6 +77,16 @@
                 template: 'Mano rankų darbas © 2018 - Klaipėda'
               }
             }
+          }).state('acrostia-en', {
+            url: '/acrostia-en',
+            views: {
+              '': {
+                templateUrl: './views/en.acrostia.html'
+              },
+              'footer': {
+                template: 'Handmade by me © 2018 - Klaipėda'
+              }
+            }
           })
 
         $urlRouterProvider.otherwise('/')
