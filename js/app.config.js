@@ -87,26 +87,6 @@
                 template: 'Handmade by me © 2018 - Klaipėda'
               }
             }
-          }).state('ie9', {
-            url: '/ie9',
-            views: {
-              '': {
-                templateUrl: './views/ie9.html'
-              },
-              'footer': {
-                template: 'Mano rankų darbas © 2018 - Klaipėda'
-              }
-            }
-          }).state('ie9-en', {
-            url: '/ie9-en',
-            views: {
-              '': {
-                templateUrl: './views/en.ie9.html'
-              },
-              'footer': {
-                template: 'Handmade by me © 2018 - Klaipėda'
-              }
-            }
           })
 
         $urlRouterProvider.otherwise('/')
